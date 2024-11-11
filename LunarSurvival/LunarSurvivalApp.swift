@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SolarSurvivalApp: App {
+struct LunarSurvivalApp: App {
     var body: some Scene {
         WindowGroup {
         SwiftUIView()

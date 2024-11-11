@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048E9A262CD8771E00105FD3 /* SolarSurvivalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9A252CD8771E00105FD3 /* SolarSurvivalApp.swift */; };
+		048E9A262CD8771E00105FD3 /* LunarSurvivalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9A252CD8771E00105FD3 /* LunarSurvivalApp.swift */; };
 		048E9A282CD8771E00105FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9A272CD8771E00105FD3 /* ContentView.swift */; };
 		048E9A2A2CD8771F00105FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E9A292CD8771F00105FD3 /* Assets.xcassets */; };
 		048E9A2D2CD8771F00105FD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E9A2C2CD8771F00105FD3 /* Preview Assets.xcassets */; };
-		0C1481582CE1D4E6000B889A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1481572CE1D4E6000B889A /* SwiftUIView.swift */; };
+		0C1481582CE1D4E6000B889A /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1481572CE1D4E6000B889A /* MainPage.swift */; };
+		0C14815A2CE1EA19000B889A /* moon surface img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C1481592CE1EA19000B889A /* moon surface img.jpg */; };
+		0C14815C2CE1EA36000B889A /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14815B2CE1EA36000B889A /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		048E9A222CD8771E00105FD3 /* SolarSurvival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSurvival.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		048E9A252CD8771E00105FD3 /* SolarSurvivalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSurvivalApp.swift; sourceTree = "<group>"; };
+		048E9A222CD8771E00105FD3 /* LunarSurvival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarSurvival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048E9A252CD8771E00105FD3 /* LunarSurvivalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarSurvivalApp.swift; sourceTree = "<group>"; };
 		048E9A272CD8771E00105FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		048E9A292CD8771F00105FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E9A2C2CD8771F00105FD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0C1481572CE1D4E6000B889A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0C1481572CE1D4E6000B889A /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		0C1481592CE1EA19000B889A /* moon surface img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "moon surface img.jpg"; path = "Assets.xcassets/moon surface img.jpg"; sourceTree = "<group>"; };
+		0C14815B2CE1EA36000B889A /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +41,7 @@
 		048E9A192CD8771D00105FD3 = {
 			isa = PBXGroup;
 			children = (
-				048E9A242CD8771E00105FD3 /* SolarSurvival */,
+				048E9A242CD8771E00105FD3 /* LunarSurvival */,
 				048E9A232CD8771E00105FD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,21 +49,23 @@
 		048E9A232CD8771E00105FD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				048E9A222CD8771E00105FD3 /* SolarSurvival.app */,
+				048E9A222CD8771E00105FD3 /* LunarSurvival.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		048E9A242CD8771E00105FD3 /* SolarSurvival */ = {
+		048E9A242CD8771E00105FD3 /* LunarSurvival */ = {
 			isa = PBXGroup;
 			children = (
-				048E9A252CD8771E00105FD3 /* SolarSurvivalApp.swift */,
+				048E9A252CD8771E00105FD3 /* LunarSurvivalApp.swift */,
 				048E9A272CD8771E00105FD3 /* ContentView.swift */,
-				0C1481572CE1D4E6000B889A /* SwiftUIView.swift */,
+				0C1481572CE1D4E6000B889A /* MainPage.swift */,
+				0C14815B2CE1EA36000B889A /* home.swift */,
 				048E9A292CD8771F00105FD3 /* Assets.xcassets */,
+				0C1481592CE1EA19000B889A /* moon surface img.jpg */,
 				048E9A2B2CD8771F00105FD3 /* Preview Content */,
 			);
-			path = SolarSurvival;
+			path = LunarSurvival;
 			sourceTree = "<group>";
 		};
 		048E9A2B2CD8771F00105FD3 /* Preview Content */ = {
@@ -73,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		048E9A212CD8771E00105FD3 /* SolarSurvival */ = {
+		048E9A212CD8771E00105FD3 /* LunarSurvival */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048E9A302CD8771F00105FD3 /* Build configuration list for PBXNativeTarget "SolarSurvival" */;
+			buildConfigurationList = 048E9A302CD8771F00105FD3 /* Build configuration list for PBXNativeTarget "LunarSurvival" */;
 			buildPhases = (
 				048E9A1E2CD8771E00105FD3 /* Sources */,
 				048E9A1F2CD8771E00105FD3 /* Frameworks */,
@@ -85,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = SolarSurvival;
+			name = LunarSurvival;
 			productName = SolarSurvival;
-			productReference = 048E9A222CD8771E00105FD3 /* SolarSurvival.app */;
+			productReference = 048E9A222CD8771E00105FD3 /* LunarSurvival.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 048E9A1D2CD8771D00105FD3 /* Build configuration list for PBXProject "SolarSurvival" */;
+			buildConfigurationList = 048E9A1D2CD8771D00105FD3 /* Build configuration list for PBXProject "LunarSurvival" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				048E9A212CD8771E00105FD3 /* SolarSurvival */,
+				048E9A212CD8771E00105FD3 /* LunarSurvival */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +136,7 @@
 			files = (
 				048E9A2D2CD8771F00105FD3 /* Preview Assets.xcassets in Resources */,
 				048E9A2A2CD8771F00105FD3 /* Assets.xcassets in Resources */,
+				0C14815A2CE1EA19000B889A /* moon surface img.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				048E9A282CD8771E00105FD3 /* ContentView.swift in Sources */,
-				048E9A262CD8771E00105FD3 /* SolarSurvivalApp.swift in Sources */,
-				0C1481582CE1D4E6000B889A /* SwiftUIView.swift in Sources */,
+				048E9A262CD8771E00105FD3 /* LunarSurvivalApp.swift in Sources */,
+				0C14815C2CE1EA36000B889A /* home.swift in Sources */,
+				0C1481582CE1D4E6000B889A /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +283,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SolarSurvival/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LunarSurvival/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H539QRB34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -291,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BryanNguyen.SolarSurvival;
+				PRODUCT_BUNDLE_IDENTIFIER = BryanNguyen.LunarSurvival;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -306,7 +314,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SolarSurvival/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LunarSurvival/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H539QRB34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BryanNguyen.SolarSurvival;
+				PRODUCT_BUNDLE_IDENTIFIER = BryanNguyen.LunarSurvival;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048E9A1D2CD8771D00105FD3 /* Build configuration list for PBXProject "SolarSurvival" */ = {
+		048E9A1D2CD8771D00105FD3 /* Build configuration list for PBXProject "LunarSurvival" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048E9A2E2CD8771F00105FD3 /* Debug */,
@@ -342,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048E9A302CD8771F00105FD3 /* Build configuration list for PBXNativeTarget "SolarSurvival" */ = {
+		048E9A302CD8771F00105FD3 /* Build configuration list for PBXNativeTarget "LunarSurvival" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048E9A312CD8771F00105FD3 /* Debug */,

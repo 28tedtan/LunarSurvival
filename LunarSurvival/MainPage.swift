@@ -42,7 +42,7 @@ struct SwiftUIView: View {
                                         .padding(.leading, 62.5)
                                         .background(Color.green)
                                         .foregroundColor(.white)
-                                        .cornerRadius(8)
+                                        .cornerRadius(10)
                                     
                                 }
                                 
@@ -61,7 +61,7 @@ struct SwiftUIView: View {
                                         .padding(.leading, 60)
                                         .background(Color.red)
                                         .foregroundColor(.white)
-                                        .cornerRadius(8)
+                                        .cornerRadius(10)
                                     
                                         
                                     
