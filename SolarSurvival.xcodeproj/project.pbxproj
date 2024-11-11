@@ -11,6 +11,7 @@
 		048E9A282CD8771E00105FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9A272CD8771E00105FD3 /* ContentView.swift */; };
 		048E9A2A2CD8771F00105FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E9A292CD8771F00105FD3 /* Assets.xcassets */; };
 		048E9A2D2CD8771F00105FD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E9A2C2CD8771F00105FD3 /* Preview Assets.xcassets */; };
+		0C1481582CE1D4E6000B889A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1481572CE1D4E6000B889A /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		048E9A272CD8771E00105FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		048E9A292CD8771F00105FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E9A2C2CD8771F00105FD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C1481572CE1D4E6000B889A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				048E9A252CD8771E00105FD3 /* SolarSurvivalApp.swift */,
 				048E9A272CD8771E00105FD3 /* ContentView.swift */,
+				0C1481572CE1D4E6000B889A /* SwiftUIView.swift */,
 				048E9A292CD8771F00105FD3 /* Assets.xcassets */,
 				048E9A2B2CD8771F00105FD3 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				048E9A282CD8771E00105FD3 /* ContentView.swift in Sources */,
 				048E9A262CD8771E00105FD3 /* SolarSurvivalApp.swift in Sources */,
+				0C1481582CE1D4E6000B889A /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,8 @@
 				DEVELOPMENT_TEAM = 7H539QRB34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunar Survival";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +310,8 @@
 				DEVELOPMENT_TEAM = 7H539QRB34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lunar Survival";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
